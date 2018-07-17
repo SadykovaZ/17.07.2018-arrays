@@ -290,7 +290,17 @@ start:
 
 			case 4:
 			{
+				int k = 0;
+				
+				cout << "Введите номер предмета: ";
+				cin >> k;
 
+				for (int i = 0; i < 10; i++)
+				{
+						cout << a[i][k-1] << " ";
+				}
+
+				cout << endl;
 			}
 			break;
 
